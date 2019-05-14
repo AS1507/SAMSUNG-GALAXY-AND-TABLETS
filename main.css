@@ -1,13 +1,15 @@
         
-<style type="text/css" media:"screen">
+<style type="text/css" media="screen">
 
-body {
-  background-color:blue;
-}
-# tablet{background-color: purple;}
+h1{background-color:black;}
 
-# Galaxy-cell{background-color: black;}
-p{ style="background-color:Tomato;"}
+img{
+    width:70%;
+    height:auto;    
+   }
+
+h2{background-color:green; }
+p { color: lightblue; }
 
 </body>
 </style>
