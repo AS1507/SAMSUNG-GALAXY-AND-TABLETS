@@ -7,19 +7,8 @@ h1{  background-color:black;
      font-style:italic;
      font-weight:bold;
     }
-<style>
-  .p1 { 
-      font-family:verdana;
-      color:purple;
-      font-size:20 px;
-      font-style: italic ;
-   }
-.p2 { font-family:verdana;
-      color:violet;
-      font-size:20 px;
-      font-style: italic ;
- } 
-</style>
+   
+
 
 <style>
 * {box-sizing: border-box}
