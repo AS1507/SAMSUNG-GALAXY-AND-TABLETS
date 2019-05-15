@@ -1,1 +1,26 @@
+@charset "UTF-8";
 
+/* index */
+
+h1{  background-color:black; 
+     color:orange;
+     font-style:italic;
+     font-weight:bold;
+    }
+  
+
+#p1 { 
+      font-family:verdana;
+      color:purple;
+      font-size:20 px;
+      font-style: italic ;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+   }
+#p2 { font-family:verdana;
+      color:violet;
+      font-size:20 px;
+      font-style: italic ;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
