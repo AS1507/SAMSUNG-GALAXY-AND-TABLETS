@@ -51,25 +51,7 @@ screens 7 inches (18 cm) or larger, measured diagonally.E.g., samsung galaxy ,ta
         <img class="mySlides" src="https://images-na.ssl-images-amazon.com/images/I/81fz3PxhTdL._SY606_.jpg" style="width:40%">
       </div>
 
-      <script>
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          myIndex++;
-          if (myIndex > x.length) {
-            myIndex = 1
-          }
-          x[myIndex - 1].style.display = "block";
-          setTimeout(carousel, 5000); // Change image every 5 seconds
-        }
-      </script>
-
+     
   </body>  
    
    <h1><marquee> SAMSUNG GALAXY </marquee></h1>
@@ -88,7 +70,7 @@ People also have a perception that Samsung low budget phones has better camera a
    <body>
     <style>
       .mySlides {
-        display: none;
+        display: block;
         margin-left:auto;
      margin-right:auto;
       }
