@@ -8,5 +8,9 @@ h1{  background-color:black;
      font-weight:bold;
     }
    
-
+img{
+     dispay:none;
+     margin-left:auto;
+     margin-right:auto;
+}
 
