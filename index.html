@@ -11,11 +11,13 @@
       color:purple;
       font-size:20 px;
       font-style: italic ;
+      font-weight:bold;
    }
 .p2 { font-family:verdana;
-      color:violet;
+      color:black;
       font-size:20 px;
-      font-style: italic ;
+      font-style: italic;
+      font-weight:bold;
  }
         
  </style>
@@ -39,20 +41,20 @@ screens 7 inches (18 cm) or larger, measured diagonally.E.g., samsung galaxy ,ta
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="https://multimedia.bbycastatic.ca/multimedia/products/500x500/115/11531/11531619.jpg" style="width:100px">
-  <div class="text">Caption Text</div>
+  <img src="https://multimedia.bbycastatic.ca/multimedia/products/500x500/115/11531/11531619.jpg" style="width:300px">
+  
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="https://cf3.s3.souqcdn.com/item/2016/05/30/10/84/36/22/item_XL_10843622_14616431.jpg" style="width:100px">
-  <div class="text">Caption Two</div>
+  <img src="https://cf3.s3.souqcdn.com/item/2016/05/30/10/84/36/22/item_XL_10843622_14616431.jpg" style="width:300px">
+  
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="https://images-na.ssl-images-amazon.com/images/I/81fz3PxhTdL._SY606_.jpg" style="width:100px">
-  <div class="text">Caption Three</div>
+  <img src="https://images-na.ssl-images-amazon.com/images/I/81fz3PxhTdL._SY606_.jpg" style="width:300px">
+ 
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -66,34 +68,7 @@ screens 7 inches (18 cm) or larger, measured diagonally.E.g., samsung galaxy ,ta
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
- <script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
+ 
    </body>
 
    
@@ -114,20 +89,20 @@ People also have a perception that Samsung low budget phones has better camera a
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="https://images-na.ssl-images-amazon.com/images/I/41VE1x1z5vL.jpg" style="width:100px">
-  <div class="text">Caption Text</div>
+  <img src="https://images-na.ssl-images-amazon.com/images/I/41VE1x1z5vL.jpg" style="width:300px">
+  
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="https://cdn1.techadvisor.co.uk/cmsdata/features/3671208/best_samsung_galaxy_phone_2018_thumb1200_4-3.jpg" style="width:100px">
-  <div class="text">Caption Two</div>
+  <img src="https://cdn1.techadvisor.co.uk/cmsdata/features/3671208/best_samsung_galaxy_phone_2018_thumb1200_4-3.jpg" style="width:300px">
+  
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fimg.vidible.tv%2Fprod%2F2019-03%2F06%2F5c801d87fcd67b3e762345a3%2F5c801e18573ec615067c96f1_o_U_v1.jpg&client=amp-blogside-v2&signature=bd7408d892f6f8594ee3d741feef89a5bed6a9ca" style="width:100px">
-  <div class="text">Caption Three</div>
+  <img src="https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fimg.vidible.tv%2Fprod%2F2019-03%2F06%2F5c801d87fcd67b3e762345a3%2F5c801e18573ec615067c96f1_o_U_v1.jpg&client=amp-blogside-v2&signature=bd7408d892f6f8594ee3d741feef89a5bed6a9ca" style="width:300px">
+  
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -141,39 +116,3 @@ People also have a perception that Samsung low budget phones has better camera a
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
- </body>
-    
-                                                                                                                         
-  
-  
-
-  
- 
