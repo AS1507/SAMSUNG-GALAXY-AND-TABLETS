@@ -20,13 +20,7 @@
       font-style: italic;
       font-weight:bold;
  }
-  img{
-     dispay:none;
-     margin-left:auto;
-     margin-right:auto;
-}
-
-        
+       
  </style>
   
  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,7 +38,9 @@ screens 7 inches (18 cm) or larger, measured diagonally.E.g., samsung galaxy ,ta
     <body>
      <style>
       .mySlides {
-        display: none;
+        display:block;
+        margin-left:auto;
+     margin-right:auto;
       }
     </style>
     
@@ -88,10 +84,13 @@ idea as if theres a problem they can go to a samsung store for support which are
 People also have a perception that Samsung low budget phones has better camera as samsung high end phone have.</p><br>
    
    
+   
    <body>
     <style>
       .mySlides {
         display: none;
+        margin-left:auto;
+     margin-right:auto;
       }
     </style>
     
@@ -102,24 +101,7 @@ People also have a perception that Samsung low budget phones has better camera a
         <img class="mySlides" src="https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fimg.vidible.tv%2Fprod%2F2019-03%2F06%2F5c801d87fcd67b3e762345a3%2F5c801e18573ec615067c96f1_o_U_v1.jpg&client=amp-blogside-v2&signature=bd7408d892f6f8594ee3d741feef89a5bed6a9ca" style="width:40%">
       </div>
 
-      <script>
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          myIndex++;
-          if (myIndex > x.length) {
-            myIndex = 1
-          }
-          x[myIndex - 1].style.display = "block";
-          setTimeout(carousel, 5000); // Change image every 5 seconds
-        }
-      </script>
+      
 
    </body>
    </head>
