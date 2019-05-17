@@ -10,20 +10,7 @@ div.phones{
  border: 5px solid darkblue;
 }
 
-* {
-  box-sizing: border-box;
-}
-.responsive {
-  padding: 6 px;
-  float: left;
-  width: 22.99999%;
-}
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 49.99999%;
-   margin: 6px 0;}
- 
- .clearfix:after {
+.clearfix:after {
   content: "";
   display: table;
   clear: both;}
