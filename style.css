@@ -2,18 +2,18 @@
 
 /* index */
 
-h1{  background-color:black; 
-     color:turquoise;
-     font-style:italic;
-     font-weight:bold;
-    }
-   
+ div.tabs4 {
+      border: 5px solid dark blue;
+box-shadow: 5px 10px white;}
 
-/* tabs4 */
+div.tabs3 {
+     border: 5px solid dark blue;
+box-shadow: 5px 10px white;}
 
-.H1{ color:yellow; 
-    font-style:italic;
-     font-weight:bold;
-}
+div.tabs2 {
+     border: 5px solid dark blue;
+box-shadow: 5px 10px white;}
+
+
 
 
