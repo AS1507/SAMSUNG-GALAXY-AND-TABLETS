@@ -3,16 +3,25 @@
 /* index */
 
  div.tabs4 {
-      border: 5px solid dark blue;
-box-shadow: 5px 10px white;}
+      border: 5px solid darkblue;
+}
 
-div.tabs3 {
-     border: 5px solid dark blue;
-box-shadow: 5px 10px white;}
+div.phones{
+ border: 5px solid darkblue;
+}
 
-div.tabs2 {
-     border: 5px solid dark blue;
-box-shadow: 5px 10px white;}
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
 
 
 
