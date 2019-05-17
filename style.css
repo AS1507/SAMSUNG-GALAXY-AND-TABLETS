@@ -2,18 +2,9 @@
 
 /* index */
 <style>
- div.tabs4 {
+ img {
       border: 5px solid darkblue;
 }
-
-div.phones{
- border: 5px solid darkblue;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;}
 
 </style>
 
