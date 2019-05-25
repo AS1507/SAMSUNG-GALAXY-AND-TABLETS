@@ -6,3 +6,14 @@ img{
   border: 4px solid blue;
    border-radius: 1px;
 }
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ffff00;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float:right;
+}
