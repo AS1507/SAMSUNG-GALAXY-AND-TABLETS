@@ -54,7 +54,7 @@ body {
   cursor: pointer;
   position: absolute;
   top: 60%;
-  width: 100px;
+  width: 400px;
   padding: 16px;
   margin-top: -50px;
   color: white;
@@ -73,7 +73,7 @@ body {
 
 /* Position the "previous button" to the left */
 .prev {
-  left: 500px;
+  left: 0;
   border-radius: 3px 0 0 3px;
 
 /* On hover, add a black background color with a little bit see-through */
