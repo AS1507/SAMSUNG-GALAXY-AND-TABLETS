@@ -35,28 +35,3 @@ body {
 
 .mySlides {display:none;}
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: 600px;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  user-select: none;
-}
-/* Position the "previous button" to the left */
-.previous {
-  left: 0;
-  
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
- 
-}
-
