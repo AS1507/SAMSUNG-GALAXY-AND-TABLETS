@@ -73,7 +73,7 @@ body {
 
 /* Position the "previous button" to the left */
 .prev {
-  left: 0;
+  left: 300px;
   border-radius: 3px 0 0 3px;
 
 /* On hover, add a black background color with a little bit see-through */
@@ -88,6 +88,6 @@ body {
   font-size: 16px;
   font-weight: bold;
   padding: 10px 14px;
-  position: absolute;
+  position: relative;
   top: 0;
 }
