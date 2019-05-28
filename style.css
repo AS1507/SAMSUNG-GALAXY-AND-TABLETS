@@ -53,8 +53,8 @@ body {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
-  width: 400px;
+  top: 60%;
+  width: 500px;
   padding: 16px;
   margin-top: -50px;
   color: white;
@@ -67,7 +67,7 @@ body {
 
 /* Position the "next button" to the right */
 .next {
-  right: 500px;
+  right: 0;
   border-radius: 3px 0 0 3px;
 }
 
