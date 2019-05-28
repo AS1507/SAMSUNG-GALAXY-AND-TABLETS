@@ -25,39 +25,55 @@
   <a href="https://as1507.github.io/SAMSUNG-GALAXY-AND-TABLETS/">HOME</a>
  </div>
 
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" type="text/css" href="style.css" />
   <meta charset="utf-8">
-   <div class="w3-content w3-display-container">
-   <img class="mySlides" src="https://assets.pcmag.com/media/images/536355-samsung-galaxy-tab-s3.jpg?thumb=y&width=980&height=416" style="width:500px">
-  <img class="mySlides" src="https://zdnet1.cbsistatic.com/hub/i/r/2017/03/24/4f54a115-721b-4701-bee7-b7909402989b/thumbnail/770x433/f8b1784d6ce6a89606f9bd95cfa6c410/samsung-galaxy-tab-s3-6.jpg" style="width:500px">
-  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBY8lYt5_qyWjs6aIMbI8DIPCiWEM2Fs8J5B3wXBkAEu9uDCa" style="width:450px">
-  <img class="mySlides" src="https://fscl01.fonpit.de/userfiles/6727621/image/2017/Samsung-Galaxy-Tab-S3/AndroidPIT-Samsung-Galaxy-Tab-S3-2151-w782.jpg" style="width:500px">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+   <div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://zdnet1.cbsistatic.com/hub/i/r/2017/03/24/4f54a115-721b-4701-bee7-b7909402989b/thumbnail/770x433/f8b1784d6ce6a89606f9bd95cfa6c410/samsung-galaxy-tab-s3-6.jpg" style="width:500px">
+  </div>
 
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-  
+  <div class="mySlides">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://assets.pcmag.com/media/images/536355-samsung-galaxy-tab-s3.jpg?thumb=y&width=980&height=416" style="width:500px">
+  </div>
 
-</div>
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://fscl01.fonpit.de/userfiles/6727621/image/2017/Samsung-Galaxy-Tab-S3/AndroidPIT-Samsung-Galaxy-Tab-S3-2151-w782.jpg" style="width:500px">
+  </div>
+    
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
 
   <script>
 var slideIndex = 1;
-showDivs(slideIndex);
+showSlides(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-function showDivs(n) {
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+  var slides = document.getElementsByClassName("mySlides");
+  
+  
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "block";  
-}
+    slides[slideIndex-1].style.display = "block";
+  }
 </script>
+    
 
- 
+  
