@@ -92,20 +92,22 @@ body {
   top: 0;
 }
 
+/* Table info*/    
   #info {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 790px;
 }
-
+/* Table border */
 #info td, #info th {
   border: 1px solid #ddd;
   padding: 12px;
 }
-
+/* table row background */
 #info tr:nth-child(even){background-color: #f2f2f2;}
 #info tr:hover {background-color: #ddd;}
-
+  
+/*table header*/
 #info th {
   padding-top: 25px;
   padding-bottom: 25px;
