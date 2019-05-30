@@ -53,7 +53,7 @@ body {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 10%;
+  top: 20%;
   width: auto;
   padding: 16px;
   margin-top: -70px;
@@ -67,13 +67,13 @@ body {
 
 /* Position the "next button" to the right */
 .next {
-  right: 400px;
+  right: 390px;
   border-radius: 3px 0 0 3px;
 }
 
 /* Position the "previous button" to the left */
 .prev {
-  left: 400px;
+  left: 390px;
   border-radius: 3px 0 0 3px;
 
 /* On hover, add a black background color with a little bit see-through */
