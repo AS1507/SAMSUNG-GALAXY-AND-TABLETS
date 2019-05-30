@@ -16,28 +16,25 @@
    .mySlides {display:none;
           text-align:center; 
    }
-   table.center {
-    margin-left:auto; 
-    margin-right:auto;
-  }   
-    #info {
+   table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
+  
   width: 890px;
 }
       
-#info td, #info th {
+table td, table th {
   border: 1px solid #ddd;
-  padding: 12px;
+  padding: 10px;
 }
-
-#info tr:nth-child(even){background-color: #f2f2f2;}
-#info tr:hover {background-color: #ddd;}
-  
-
-#info th {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  table td{ padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: black;
+  color: white;
+  }
+table th {
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: left;
   background-color: #4CAF50;
   color: white;
@@ -104,8 +101,7 @@ function showSlides(n) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
    
     <br>
-    <table class="center">
-  <table id="info">
+    <table align="center">
   
    <tr>
     <th>NETWORK</th>
