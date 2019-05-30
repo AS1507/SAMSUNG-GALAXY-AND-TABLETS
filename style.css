@@ -53,10 +53,10 @@ body {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 20%;
+  top: 10%;
   width: auto;
   padding: 16px;
-  margin-top: -100px;
+  margin-top: -90px;
   color: white;
   font-weight: bold;
   font-size: 20px;
